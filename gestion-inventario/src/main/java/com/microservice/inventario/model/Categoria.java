@@ -3,29 +3,18 @@ package model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 @Entity
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-public class Producto {
+public class Categoria {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idProducto;
+    private int idCategoria;
 
     @Column(length = 100, nullable = false)
     private String nombre;
-
-    @Column(length = 100, nullable = false)
-    private String descripcion;
-
-    @Column(nullable = true)
-    private int stock;
-
-    @Column(nullable = false)
-    private double precio;
-
-
 }
