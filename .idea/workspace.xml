@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/AlmacenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Almacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Almacen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/ICategoriaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/ICategoriaRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IGenericRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IGenericRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IStockRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IStockRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IAlmacenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IAlmacenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICRUDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICategoriaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IStockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CRUDImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CRUDImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CategoriaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CategoriaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gestion-inventario/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2c3sqoPkg56FX07v9UlZTZyJViH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.GestionInventarioApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/lgonzalez/Documents/FrontEnd/gestion-inventario-frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservice.inventario.controller" />
+      <recent name="com.microservice.inventario.service.impl" />
+      <recent name="com.microservice.inventario.service" />
+      <recent name="com.microservice.inventario.repo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GestionInventarioApplication">
+    <configuration name="GestionInventarioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gestion-inventario" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.inventario.GestionInventarioApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProyectoArquitecturaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Proyecto-Arquitectura" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.proyecto_arquitectura.ProyectoArquitecturaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-ab7203c4" />
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-86fc8109" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="" />
+      <created>1707351791569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707351791569</updated>
+      <workItem from="1707351793080" duration="718000" />
+      <workItem from="1707354084198" duration="184000" />
+      <workItem from="1707362994750" duration="1572000" />
+      <workItem from="1707430066848" duration="3398000" />
+      <workItem from="1707433654954" duration="21000" />
+      <workItem from="1707433696409" duration="267000" />
+      <workItem from="1707434014097" duration="487000" />
+      <workItem from="1707436536170" duration="2744000" />
+      <workItem from="1707441054576" duration="389000" />
+      <workItem from="1707656871644" duration="5254000" />
+      <workItem from="1707673462341" duration="1034000" />
+      <workItem from="1707675664237" duration="2000" />
+      <workItem from="1707675735545" duration="2000" />
+      <workItem from="1707677783807" duration="4648000" />
+      <workItem from="1707700130597" duration="123000" />
+      <workItem from="1707700463584" duration="1737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
