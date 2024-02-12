@@ -1,0 +1,19 @@
+#server.port=8092
+#spring.datasource.url=jdbc:mysql://localhost:3306/db_customers
+#spring.datasource.username=root
+#spring.datasource.password=2846
+#spring.jpa.hibernate.ddl-auto=update
+server:
+  port: 8092
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/db_customers # Reemplaza con el nombre de tu base de datos
+    driverClassName: com.mysql.cj.jdbc.Driver # Asegúrate de usar la versión correcta del driver
+    username: root # Reemplaza con tu nombre de usuario
+    password: 2846 # Reemplaza con tu contraseña
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect # Ajusta según la versión de MySQL que uses
+    hibernate:
+      ddl-auto: update # Opcional: Actualiza automáticamente el esquema al iniciar la aplicación
+      show-sql: true # Opcional: Muestra las consultas SQL generadas en la consola
