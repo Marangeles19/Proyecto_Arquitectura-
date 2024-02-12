@@ -5,8 +5,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gestion-inventario/pom.xml" />
+        <option value="$PROJECT_DIR$/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-microservice/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-microservice/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK" />
 </project>

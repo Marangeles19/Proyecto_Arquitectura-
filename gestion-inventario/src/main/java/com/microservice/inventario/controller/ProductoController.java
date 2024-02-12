@@ -2,6 +2,7 @@ package com.microservice.inventario.controller;
 
 import com.microservice.inventario.model.Producto;
 import com.microservice.inventario.service.IProductoService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@Slf4j
 @RequestMapping("/productos")
 public class ProductoController {
     @Autowired
@@ -17,6 +19,7 @@ public class ProductoController {
 
     @GetMapping
     public ResponseEntity<List<Producto>> findAll(){
+        log.info("Listado a los productos");
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
 
