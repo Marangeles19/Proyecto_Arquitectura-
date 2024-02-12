@@ -1,4 +1,6 @@
 package com.microservice.inventario.service;
 
-public interface IProductoService {
+import com.microservice.inventario.model.Producto;
+
+public interface IProductoService extends ICRUDService<Producto,Integer> {
 }

@@ -1,7 +1,7 @@
 package com.microservice.inventario.controller;
 
-import com.microservice.inventario.model.Producto;
-import com.microservice.inventario.service.IProductoService;
+import com.microservice.inventario.model.Categoria;
+import com.microservice.inventario.service.ICategoriaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,29 +10,29 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/productos")
+@RequestMapping("/categoria")
 public class CategoriaController {
     @Autowired
-    private IProductoService service;
+    private ICategoriaService service;
 
     @GetMapping
-    public ResponseEntity<List<Producto>> findAll(){
+    public ResponseEntity<List<Categoria>> findAll(){
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Producto> findById(@PathVariable("id") Integer id){
+    public ResponseEntity<Categoria> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(service.findById(id),HttpStatus.OK);
     }
     @PostMapping
-    public ResponseEntity<Void> save(@RequestBody Producto obj){
+    public ResponseEntity<Void> save(@RequestBody Categoria obj){
         service.save(obj);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @PutMapping
-    public ResponseEntity<Producto> update(@RequestBody Producto obj){
-        Producto response = service.findById(obj.getIdProducto());
+    public ResponseEntity<Categoria> update(@RequestBody Categoria obj){
+        Categoria response = service.findById(obj.getIdCategoria());
         if (response == null){
             throw new RuntimeException();
         }
@@ -41,7 +41,7 @@ public class CategoriaController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete (@PathVariable Integer id){
-        Producto obj = service.findById(id);
+        Categoria obj = service.findById(id);
         if (obj == null) {
             throw new RuntimeException();
         } else{

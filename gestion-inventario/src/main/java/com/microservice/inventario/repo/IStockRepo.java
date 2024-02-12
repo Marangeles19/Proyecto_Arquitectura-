@@ -1,8 +1,8 @@
 package com.microservice.inventario.repo;
 
-import com.microservice.inventario.model.Producto;
+import com.microservice.inventario.model.Stock;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface IStockRepo extends IGenericRepo<Producto, Integer> {
+public interface IStockRepo extends IGenericRepo<Stock, Integer> {
 }

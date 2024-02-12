@@ -1,4 +1,6 @@
 package com.microservice.inventario.service;
 
-public interface ICategoriaService {
+import com.microservice.inventario.model.Categoria;
+
+public interface ICategoriaService extends ICRUDService<Categoria,Integer> {
 }

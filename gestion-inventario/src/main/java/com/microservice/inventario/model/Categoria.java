@@ -1,4 +1,4 @@
-package model;
+package com.microservice.inventario.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -13,7 +13,7 @@ public class Categoria {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idCategoria;
+    private Integer idCategoria;
 
     @Column(length = 100, nullable = false)
     private String nombre;
