@@ -4,3 +4,21 @@ server:
 spring:
   application:
     name: inventario-service
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost/inventarioDB
+    username: root
+    password: root
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost

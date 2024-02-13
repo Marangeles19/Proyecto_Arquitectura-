@@ -5,69 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/customer-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-data/inventario-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/customer-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/customer-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/inventario-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/inventario-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/microservice/config/ConfigMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/microservice/config/ConfigMicroserviceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/src/main/java/com/microservice/eureka/EurekaMicroserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-microservice/src/test/java/com/microservice/eureka/EurekaMicroserviceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/src/main/java/com/microservice/gateway/GatewayMicroserviceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-microservice/src/test/java/com/microservice/gateway/GatewayMicroserviceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/GestionInventarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/GestionInventarioApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/AlmacenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/CategoriaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Almacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/model/Almacen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/model/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/model/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/model/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/ICategoriaRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/ICategoriaRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IGenericRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IGenericRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/repo/IStockRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IAlmacenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IAlmacenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/ICRUDService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/ICategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/ICategoriaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CRUDImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/CRUDImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/CategoriaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/CategoriaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario/util/CORS.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/util/CORS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestion-inventario/src/test/java/com/microservice/inventario/GestionInventarioApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/test/java/com/microservice/inventario/GestionInventarioApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/CustomerServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/example/demo/CustomerServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/example/demo/CustomerServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/GestionInventarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/InventarioServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/resources/bootstrap.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,12 +87,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigMicroserviceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServiceApplication.executor": "Run",
     "Spring Boot.GestionInventarioApplication.executor": "Run",
+    "Spring Boot.InventarioServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/eureka-microservice/pom.xml",
+    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/inventario-service/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -148,8 +107,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config-data" />
+      <recent name="$PROJECT_DIR$/eureka-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/customer-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario" />
     </key>
@@ -172,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GestionInventarioApplication">
+  <component name="RunManager" selected="Spring Boot.InventarioServiceApplication">
     <configuration name="CustomerServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -203,24 +167,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="EurekaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="eureka-microservice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.eureka.EurekaMicroserviceApplication" />
+      <module name="eureka-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.eureka.EurekaServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatewayMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="gateway-microservice" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.gateway.GatewayMicroserviceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GestionInventarioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <configuration name="InventarioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventario-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.inventario.GestionInventarioApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.inventario.InventarioServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -235,10 +192,9 @@
     <list>
       <item itemvalue="Application.CustomerServiceApplication" />
       <item itemvalue="Spring Boot.ConfigMicroserviceApplication" />
-      <item itemvalue="Spring Boot.EurekaMicroserviceApplication" />
-      <item itemvalue="Spring Boot.GatewayMicroserviceApplication" />
+      <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.CustomerServiceApplication" />
-      <item itemvalue="Spring Boot.GestionInventarioApplication" />
+      <item itemvalue="Spring Boot.InventarioServiceApplication" />
       <item itemvalue="Spring Boot.ProyectoArquitecturaApplication" />
     </list>
     <recent_temporary>
@@ -282,7 +238,7 @@
       <workItem from="1707700463584" duration="5964000" />
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
-      <workItem from="1707776252089" duration="6305000" />
+      <workItem from="1707776252089" duration="10248000" />
     </task>
     <servers />
   </component>
