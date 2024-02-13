@@ -1,6 +1,6 @@
 server:
-  port: 8090
-
+  port: ${PORT:${SERVER_PORT:0}}
+#  port: 8090
 spring:
   application:
     name: inventario-service
@@ -21,4 +21,5 @@ eureka:
     service-url:
       default-zone: http://localhost:8761/eureka
     instance:
-      hostname: localhost
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+#      hostname: localhost
