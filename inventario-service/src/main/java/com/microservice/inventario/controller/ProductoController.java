@@ -20,7 +20,8 @@ public class ProductoController {
     @GetMapping
     public ResponseEntity<List<Producto>> findAll(){
         log.info("Listado a los productos");
-        return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
+        return ResponseEntity.ok(service.findAll());
+//        return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")

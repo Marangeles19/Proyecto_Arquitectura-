@@ -19,10 +19,7 @@ spring:
         - id: inventario-service
           uri: lb://inventario-service
           predicates:
-            - Path=/api/almacen/**
-            - Path=/api/categoria/**
             - Path=/api/productos/**
-            - Path=/api/stock/**
         - id: customer-service
           uri: lb://customer-service
           predicates:
