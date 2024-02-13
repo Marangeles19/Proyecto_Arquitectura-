@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/eureka-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/AlmacenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/CategoriaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +73,7 @@
     "Spring Boot.ConfigMicroserviceApplication.executor": "Run",
     "Spring Boot.CustomerServiceApplication.executor": "Run",
     "Spring Boot.EurekaServiceApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.GestionInventarioApplication.executor": "Run",
     "Spring Boot.InventarioServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
@@ -241,7 +232,7 @@
       <workItem from="1707700463584" duration="5964000" />
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
-      <workItem from="1707776252089" duration="13119000" />
+      <workItem from="1707776252089" duration="14828000" />
     </task>
     <servers />
   </component>
