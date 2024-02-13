@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/customer-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/customer-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/inventario-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/inventario-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/java/com/microservice/config/ConfigMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/java/com/microservice/config/ConfigMicroserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/CustomerServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/CustomerServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/target/classes/com/example/demo/CustomerServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/target/classes/com/example/demo/CustomerServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/GestionInventarioApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/InventarioServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-data/eureka-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/eureka-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/example/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/AlmacenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/AlmacenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +88,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/inventario-service/pom.xml",
+    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/config-data",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +106,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config-data" />
+      <recent name="$PROJECT_DIR$/gateway-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/eureka-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/customer-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario" />
@@ -175,6 +169,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.gateway.GatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventarioServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="inventario-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.inventario.InventarioServiceApplication" />
@@ -193,6 +195,7 @@
       <item itemvalue="Application.CustomerServiceApplication" />
       <item itemvalue="Spring Boot.ConfigMicroserviceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.CustomerServiceApplication" />
       <item itemvalue="Spring Boot.InventarioServiceApplication" />
       <item itemvalue="Spring Boot.ProyectoArquitecturaApplication" />
@@ -238,7 +241,7 @@
       <workItem from="1707700463584" duration="5964000" />
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
-      <workItem from="1707776252089" duration="10248000" />
+      <workItem from="1707776252089" duration="13119000" />
     </task>
     <servers />
   </component>

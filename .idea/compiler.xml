@@ -11,6 +11,7 @@
         <module name="config-service" />
         <module name="customer-service" />
         <module name="inventario-service" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="eureka-microservice" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
       <module name="gateway-microservice" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
       <module name="inventario-service" options="-parameters" />
     </option>
   </component>
