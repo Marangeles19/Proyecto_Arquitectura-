@@ -69,6 +69,18 @@
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 			<version>4.1.0</version>
 		</dependency>
+		<!--        Zipkin Client-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+			<version>3.1.9</version>
+		</dependency>
+		<!--        Sleuth-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+			<version>3.1.9</version>
+		</dependency>
 	</dependencies>
 
 

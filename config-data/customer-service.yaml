@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: customer-service
+    zipkin: http://localhost:9411
   jpa:
     database: mysql
     hibernate:
