@@ -7,19 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-microservice" />
-        <module name="gateway-microservice" />
-        <module name="gestion-inventario" />
+        <module name="config-service" />
         <module name="customer-service" />
+        <module name="inventario-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-microservice" target="17" />
+      <module name="gateway-microservice" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
       <module name="eureka-microservice" options="-parameters" />
       <module name="gateway-microservice" options="-parameters" />
-      <module name="gestion-inventario" options="-parameters" />
+      <module name="inventario-service" options="-parameters" />
     </option>
   </component>
 </project>
