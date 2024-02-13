@@ -20,6 +20,7 @@ spring:
           uri: lb://inventario-service
           predicates:
             - Path=/api/productos/**
+            - Path=/api/stock/**
         - id: customer-service
           uri: lb://customer-service
           predicates:

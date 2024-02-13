@@ -7,8 +7,6 @@
     <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-data/gateway-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/gateway-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-data/inventario-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config-data/inventario-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,10 +184,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.CustomerServiceApplication" />
-      <item itemvalue="Spring Boot.InventarioServiceApplication" />
       <item itemvalue="Spring Boot.ConfigMicroserviceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
+      <item itemvalue="Spring Boot.InventarioServiceApplication" />
       <item itemvalue="Spring Boot.CustomerServiceApplication" />
       <item itemvalue="Spring Boot.ProyectoArquitecturaApplication" />
     </list>
@@ -234,7 +232,7 @@
       <workItem from="1707700463584" duration="5964000" />
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
-      <workItem from="1707776252089" duration="21645000" />
+      <workItem from="1707776252089" duration="21935000" />
     </task>
     <servers />
   </component>
