@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-data/ventafisica-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/controller/DetalleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/DetalleVenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/FacturaVenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/AlmacenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/CategoriaDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/ProductoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/StockDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IDetalleRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IGenericRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/ICRUDService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/IDetalleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/CRUDImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/DetalleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -263,7 +231,7 @@
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
       <workItem from="1707776252089" duration="23503000" />
-      <workItem from="1707834259472" duration="11883000" />
+      <workItem from="1707834259472" duration="12186000" />
     </task>
     <servers />
   </component>

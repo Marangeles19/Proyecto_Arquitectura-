@@ -5,6 +5,7 @@ import com.microservice.ventafisica.model.DetalleVenta;
 import com.microservice.ventafisica.model.dto.ProductoDTO;
 import com.microservice.ventafisica.model.dto.StockDTO;
 import com.microservice.ventafisica.service.IDetalleService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/detalle")
+@Slf4j
 public class DetalleController {
     @Autowired
     private IDetalleService service;

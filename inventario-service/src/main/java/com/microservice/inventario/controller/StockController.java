@@ -4,6 +4,7 @@ import com.microservice.inventario.model.Producto;
 import com.microservice.inventario.model.Stock;
 import com.microservice.inventario.service.IProductoService;
 import com.microservice.inventario.service.IStockService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +14,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/stock")
+@Slf4j
 public class StockController {
     @Autowired
     private IStockService service;
