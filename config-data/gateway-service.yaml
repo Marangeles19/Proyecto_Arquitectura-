@@ -1,3 +1,42 @@
+#server:
+#  port: 8080
+#eureka:
+#  client:
+#    fetch-registry: true
+#    register-with-eureka: true
+#    service-url:
+#      default-zone: http://localhost:8761/eureka
+#    instance:
+#      hostname: localhost
+#
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#      routes:
+#        - id: inventario-service
+#          uri: lb://inventario-service
+#          predicates:
+#            - Path=/api/productos/**
+#        - id: inventario-service
+#          uri: lb://inventario-service
+#          predicates:
+#            - Path=/api/stock/**
+#        - id: inventario-service
+#          uri: lb://inventario-service
+#          predicates:
+#            - Path=/api/categoria/**
+#        - id: inventario-service
+#          uri: lb://inventario-service
+#          predicates:
+#            - Path=/api/almacen/**
+#        - id: customer-service
+#          uri: lb://customer-service
+#          predicates:
+#            - Path=/api/customers/**
+
 server:
   port: 8080
 eureka:
@@ -19,20 +58,8 @@ spring:
         - id: inventario-service
           uri: lb://inventario-service
           predicates:
-            - Path=/api/productos/**
-        - id: inventario-service
-          uri: lb://inventario-service
-          predicates:
-            - Path=/api/stock/**
-        - id: inventario-service
-          uri: lb://inventario-service
-          predicates:
-            - Path=/api/categoria/**
-        - id: inventario-service
-          uri: lb://inventario-service
-          predicates:
-            - Path=/api/almacen/**
+            - Path=/api/**
         - id: customer-service
           uri: lb://customer-service
           predicates:
-            - Path=/api/customers/**
+            - Path=/api/**
