@@ -4,11 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="" />
+    <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/http/response/ProductoByInventarioResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IAlmacenRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IAlmacenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IAlmacenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/AlmacenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/VentafisicaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/VentafisicaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/controller/DetalleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/controller/VentaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/DetalleVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/DetalleVenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/FacturaVenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/FacturaVenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/AlmacenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/dto/AlmacenDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/CategoriaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/dto/CategoriaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/ProductoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/dto/ProductoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/StockDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/dto/StockDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IDetalleRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IFacturaVentaRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/IDetalleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/IFacturaVentaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/DetalleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/FacturaVentaServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" />
+    </disable_hints>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/config-microservice">
@@ -37,6 +68,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -73,10 +107,11 @@
     "Spring Boot.GatewayServiceApplication.executor": "Run",
     "Spring Boot.GestionInventarioApplication.executor": "Run",
     "Spring Boot.InventarioServiceApplication.executor": "Run",
+    "Spring Boot.VentafisicaServiceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto",
+    "last_opened_file_path": "/home/lgonzalez/Documents/CursoSpring/market-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -182,11 +217,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.CustomerServiceApplication" />
-      <item itemvalue="Spring Boot.VentafisicaServiceApplication" />
       <item itemvalue="Spring Boot.ConfigMicroserviceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
       <item itemvalue="Spring Boot.InventarioServiceApplication" />
+      <item itemvalue="Spring Boot.VentafisicaServiceApplication" />
       <item itemvalue="Spring Boot.CustomerServiceApplication" />
     </list>
     <recent_temporary>
@@ -231,7 +266,7 @@
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
       <workItem from="1707776252089" duration="23503000" />
-      <workItem from="1707834259472" duration="12186000" />
+      <workItem from="1707834259472" duration="20472000" />
     </task>
     <servers />
   </component>

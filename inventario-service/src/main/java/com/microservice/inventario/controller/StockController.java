@@ -1,7 +1,9 @@
 package com.microservice.inventario.controller;
 
+import com.microservice.inventario.model.Almacen;
 import com.microservice.inventario.model.Producto;
 import com.microservice.inventario.model.Stock;
+import com.microservice.inventario.service.IAlmacenService;
 import com.microservice.inventario.service.IProductoService;
 import com.microservice.inventario.service.IStockService;
 import lombok.extern.slf4j.Slf4j;
@@ -22,6 +24,8 @@ public class StockController {
     @Autowired
     private IProductoService productoService;
 
+    @Autowired
+    private IAlmacenService almacenService;
     @GetMapping
     public ResponseEntity<List<Stock>> findAll(){
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
@@ -57,9 +61,9 @@ public class StockController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    public Producto findByName(String nombre){
-        if(String.valueOf(nombre) != null){
-            Producto producto = productoService.findByProducto(nombre);
+    public Producto findProductoNombre(String nombreProducto){
+        if(String.valueOf(nombreProducto) != null){
+            Producto producto = productoService.findProductoNombre(nombreProducto);
             if(producto != null){
                 return producto;
             }
@@ -67,19 +71,35 @@ public class StockController {
         return null;
     }
 
-    @GetMapping("producto/{nombreProducto}")
-    public ResponseEntity<?> buscarNombreProducto(@PathVariable String nombreProducto){
-        Producto producto = findByName(nombreProducto);
-        if(producto!=null){
-            Stock stock = service.findByProducto(producto);
+    public Almacen findAlmacenNombre(String nombreAlmacen){
+        if(String.valueOf(nombreAlmacen) != null){
+            Almacen almacen = almacenService.findAlmacenNombre(nombreAlmacen);
+            if(almacen != null){
+                return almacen;
+            }
+        }
+        return null;
+    }
+
+    @GetMapping("/producto")
+    public ResponseEntity<?> findByProductoAlmacen(@RequestParam("producto") String nombreProducto,
+                                                  @RequestParam("almacen") String nombreAlmacen){
+
+        Producto producto = findProductoNombre(nombreProducto);
+        Almacen almacen = findAlmacenNombre(nombreAlmacen);
+        if(producto!=null || almacen!=null){
+            Stock stock = service.findByProductoAlmacen(producto,almacen);
+            if(stock==null){
+                return ResponseEntity.badRequest().body("No existe el dato stock. Producto: " +producto.getNombre()+". Almacen: " +almacen.getNombre());
+            }
             if(stock.getCantidad() <= 0){
-                return ResponseEntity.badRequest().body("No existe stock");
+                return ResponseEntity.badRequest().body("No hay unidades. Producto: " +producto.getNombre());
             }else{
                 return new ResponseEntity<>(stock, HttpStatus.OK);
             }
         }else
         {
-            return ResponseEntity.badRequest().body("No existe el producto");
+            return ResponseEntity.badRequest().body("El producto o almacen no existen");
         }
     }
 }

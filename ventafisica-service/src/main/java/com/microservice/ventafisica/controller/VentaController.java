@@ -1,10 +1,7 @@
 package com.microservice.ventafisica.controller;
 
-import com.microservice.ventafisica.api.InventarioClient;
-import com.microservice.ventafisica.model.DetalleVenta;
-import com.microservice.ventafisica.model.dto.ProductoDTO;
-import com.microservice.ventafisica.model.dto.StockDTO;
-import com.microservice.ventafisica.service.IDetalleService;
+import com.microservice.ventafisica.model.FacturaVenta;
+import com.microservice.ventafisica.service.IFacturaVentaService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,32 +11,30 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/detalle")
+@RequestMapping("/api/venta")
 @Slf4j
-public class DetalleController {
+public class VentaController {
     @Autowired
-    private IDetalleService service;
+    private IFacturaVentaService service;
 
-    @Autowired
-    private InventarioClient inventarioClient;
     @GetMapping
-    public ResponseEntity<List<DetalleVenta>> findAll(){
+    public ResponseEntity<List<FacturaVenta>> findAll(){
         return new ResponseEntity<>(service.findAll(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<DetalleVenta> findById(@PathVariable("id") Integer id){
+    public ResponseEntity<FacturaVenta> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(service.findById(id),HttpStatus.OK);
     }
     @PostMapping
-    public ResponseEntity<Void> save(@RequestBody DetalleVenta obj){
+    public ResponseEntity<Void> save(@RequestBody FacturaVenta obj){
         service.save(obj);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @PutMapping
-    public ResponseEntity<DetalleVenta> update(@RequestBody DetalleVenta obj){
-        DetalleVenta response = service.findById(obj.getIdDetalleVenta());
+    public ResponseEntity<FacturaVenta> update(@RequestBody FacturaVenta obj){
+        FacturaVenta response = service.findById(obj.getIdFacturaVenta());
         if (response == null){
             throw new RuntimeException();
         }
@@ -48,7 +43,7 @@ public class DetalleController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete (@PathVariable Integer id){
-        DetalleVenta obj = service.findById(id);
+        FacturaVenta obj = service.findById(id);
         if (obj == null) {
             throw new RuntimeException();
         } else{
@@ -57,10 +52,10 @@ public class DetalleController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @GetMapping("/buscarProducto/{nombre}")
-    public ResponseEntity<?> findProducto(@PathVariable("nombre") String nombre){
-        StockDTO stock = inventarioClient.getStock(nombre);
-        return new ResponseEntity<>(stock,HttpStatus.OK);
+    @GetMapping("/producto")
+    public ResponseEntity<?> findStockByProductoAlmacen(@RequestParam("producto") String nombreProducto,
+                                                        @RequestParam("almacen") String nombreAlmacen){
+        return new ResponseEntity<>(service.PRODUCTO_BY_INVENTARIO_RESPONSE(nombreProducto,nombreAlmacen), HttpStatus.OK);
     }
 
 }

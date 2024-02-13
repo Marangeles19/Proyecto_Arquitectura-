@@ -1,4 +1,4 @@
-package com.microservice.ventafisica.model.dto;
+package com.microservice.ventafisica.dto;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -10,6 +10,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CategoriaDTO {
 
-    private Integer idCategoria;
     private String nombre;
 }

@@ -45,4 +45,4 @@ spring:
         - id: ventafisica-service
           uri: lb://ventafisica-service
           predicates:
-            - Path=/api/detalle/**
+            - Path=/api/venta/**

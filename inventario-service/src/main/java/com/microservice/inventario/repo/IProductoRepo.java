@@ -7,6 +7,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface IProductoRepo extends IGenericRepo<Producto, Integer> {
-    @Query("SELECT p FROM Producto p WHERE p.nombre = :nombre")
-    Producto findByProducto(String nombre);
+    @Query("SELECT p FROM Producto p WHERE p.nombre = :nombreProducto")
+    Producto findByProductoNombre(String nombreProducto);
 }

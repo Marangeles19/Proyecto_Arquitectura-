@@ -18,7 +18,7 @@ public class DetalleVenta {
     private Integer idDetalleVenta;
 
     @ManyToOne
-    @JoinColumn(name = "id_sale",nullable = false,foreignKey = @ForeignKey(name = "FK_DETAIL_SALE"))
+    @JoinColumn(name = "id_facturaVenta",nullable = false,foreignKey = @ForeignKey(name = "FK_DETALLE_FACTURA"))
     private FacturaVenta facturaVenta;
 
     @Column(nullable = false, length = 4)

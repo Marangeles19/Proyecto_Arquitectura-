@@ -17,7 +17,7 @@ public class ProductoServiceImpl extends CRUDImpl<Producto,Integer> implements I
     }
 
     @Override
-    public Producto findByProducto(String nombre) {
-        return repo.findByProducto(nombre);
+    public Producto findProductoNombre(String nombre) {
+        return repo.findByProductoNombre(nombre);
     }
 }
