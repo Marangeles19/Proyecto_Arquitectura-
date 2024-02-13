@@ -1,6 +1,8 @@
 package com.microservice.inventario.controller;
 
+import com.microservice.inventario.model.Producto;
 import com.microservice.inventario.model.Stock;
+import com.microservice.inventario.service.IProductoService;
 import com.microservice.inventario.service.IStockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,6 +16,9 @@ import java.util.List;
 public class StockController {
     @Autowired
     private IStockService service;
+
+    @Autowired
+    private IProductoService productoService;
 
     @GetMapping
     public ResponseEntity<List<Stock>> findAll(){
@@ -50,6 +55,31 @@ public class StockController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
+    public Producto findByName(String nombre){
+        if(String.valueOf(nombre) != null){
+            Producto producto = productoService.findByProducto(nombre);
+            if(producto != null){
+                return producto;
+            }
+        }
+        return null;
+    }
+
+    @GetMapping("producto/{nombreProducto}")
+    public ResponseEntity<?> buscarNombreProducto(@PathVariable String nombreProducto){
+        Producto producto = findByName(nombreProducto);
+        if(producto!=null){
+            Stock stock = service.findByProducto(producto);
+            if(stock.getCantidad() <= 0){
+                return ResponseEntity.badRequest().body("No existe stock");
+            }else{
+                return new ResponseEntity<>(stock, HttpStatus.OK);
+            }
+        }else
+        {
+            return ResponseEntity.badRequest().body("No existe el producto");
+        }
+    }
 }
 
 

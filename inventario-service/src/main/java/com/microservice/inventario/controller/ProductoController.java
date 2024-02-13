@@ -28,12 +28,12 @@ public class ProductoController {
     public ResponseEntity<Producto> findById(@PathVariable("id") Integer id){
         return new ResponseEntity<>(service.findById(id),HttpStatus.OK);
     }
+
     @PostMapping
     public ResponseEntity<Void> save(@RequestBody Producto obj){
         service.save(obj);
         return new ResponseEntity<>(HttpStatus.OK);
     }
-
     @PutMapping
     public ResponseEntity<Producto> update(@RequestBody Producto obj){
         Producto response = service.findById(obj.getIdProducto());

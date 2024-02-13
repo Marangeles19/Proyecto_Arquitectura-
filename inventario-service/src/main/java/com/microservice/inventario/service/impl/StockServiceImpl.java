@@ -1,5 +1,6 @@
 package com.microservice.inventario.service.impl;
 
+import com.microservice.inventario.model.Producto;
 import com.microservice.inventario.model.Stock;
 import com.microservice.inventario.repo.IGenericRepo;
 import com.microservice.inventario.repo.IStockRepo;
@@ -14,5 +15,10 @@ public class StockServiceImpl extends CRUDImpl<Stock,Integer> implements IStockS
     @Override
     protected IGenericRepo<Stock, Integer> getGenericRepo() {
         return repo;
+    }
+
+    @Override
+    public Stock findByProducto(Producto producto) {
+        return repo.findByProducto(producto);
     }
 }

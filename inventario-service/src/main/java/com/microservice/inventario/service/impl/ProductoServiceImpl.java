@@ -15,4 +15,9 @@ public class ProductoServiceImpl extends CRUDImpl<Producto,Integer> implements I
     protected IGenericRepo<Producto, Integer> getGenericRepo() {
         return repo;
     }
+
+    @Override
+    public Producto findByProducto(String nombre) {
+        return repo.findByProducto(nombre);
+    }
 }

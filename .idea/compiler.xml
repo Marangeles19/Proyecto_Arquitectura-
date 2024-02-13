@@ -12,6 +12,7 @@
         <module name="customer-service" />
         <module name="inventario-service" />
         <module name="gateway-service" />
+        <module name="ventafisica-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="gateway-microservice" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
       <module name="inventario-service" options="-parameters" />
+      <module name="ventafisica-service" options="-parameters" />
     </option>
   </component>
 </project>

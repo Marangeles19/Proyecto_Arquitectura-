@@ -5,10 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2af7c9d-acd2-47ef-a4ff-c81719d19c28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config-data/ventafisica-service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/api/InventarioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/controller/DetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/DetalleVenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/FacturaVenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/AlmacenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/CategoriaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/ProductoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto/StockDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IDetalleRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/repo/IGenericRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/ICRUDService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/IDetalleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/CRUDImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/service/impl/DetalleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventafisica-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inventario-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/controller/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IProductoRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/repo/IStockRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/IStockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/ProductoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventario-service/src/main/java/com/microservice/inventario/service/impl/StockServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,56 +89,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CustomerServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ConfigMicroserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.CustomerServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.EurekaServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GatewayServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.GestionInventarioApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.InventarioServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lgonzalez/Documents/ProyectoArquitectura/config-data&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CustomerServiceApplication.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ConfigMicroserviceApplication.executor": "Run",
+    "Spring Boot.CustomerServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServiceApplication.executor": "Run",
+    "Spring Boot.GatewayServiceApplication.executor": "Run",
+    "Spring Boot.GestionInventarioApplication.executor": "Run",
+    "Spring Boot.InventarioServiceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/lgonzalez/Documents/ProyectoArquitectura/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model/dto" />
+      <recent name="$PROJECT_DIR$/ventafisica-service/src/main/java/com/microservice/ventafisica/model" />
       <recent name="$PROJECT_DIR$/config-data" />
+      <recent name="$PROJECT_DIR$/ventafisica-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/gateway-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/eureka-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/customer-service/src/main/resources" />
-      <recent name="$PROJECT_DIR$/gestion-inventario/src/main/java/com/microservice/inventario" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/gestion-inventario/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservice.ventafisica.service" />
+      <recent name="com.microservice.ventafisica.repo" />
+      <recent name="com.microservice.ventafisica.controller" />
+      <recent name="com.microservice.ventafisica.service.impl" />
       <recent name="com.microservice.inventario.controller" />
-      <recent name="com.microservice.inventario.service.impl" />
-      <recent name="com.microservice.inventario.service" />
-      <recent name="com.microservice.inventario.repo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,8 +205,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VentafisicaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ventafisica-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.microservice.ventafisica.VentafisicaServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CustomerServiceApplication" />
+      <item itemvalue="Spring Boot.VentafisicaServiceApplication" />
       <item itemvalue="Spring Boot.ConfigMicroserviceApplication" />
       <item itemvalue="Spring Boot.EurekaServiceApplication" />
       <item itemvalue="Spring Boot.GatewayServiceApplication" />
@@ -227,7 +263,7 @@
       <workItem from="1707710583047" duration="6672000" />
       <workItem from="1707737832721" duration="6122000" />
       <workItem from="1707776252089" duration="23503000" />
-      <workItem from="1707834259472" duration="3688000" />
+      <workItem from="1707834259472" duration="11883000" />
     </task>
     <servers />
   </component>
