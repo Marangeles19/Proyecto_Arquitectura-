@@ -41,6 +41,10 @@ spring:
           uri: lb://customer-service
           predicates:
             - Path=/api/customers/**
+        - id: customer-service
+          uri: lb://customer-service
+          predicates:
+            - Path=/api/regions/**
 #          VentaFisica SERVICE
         - id: ventafisica-service
           uri: lb://ventafisica-service

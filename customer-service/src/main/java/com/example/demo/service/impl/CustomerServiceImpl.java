@@ -1,8 +1,9 @@
-package com.example.demo.service;
+package com.example.demo.service.impl;
 
 import com.example.demo.entity.Customer;
 import com.example.demo.entity.Region;
 import com.example.demo.repository.CustomerRepository;
+import com.example.demo.service.ICustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import java.util.List;
 
 @Service
 @Slf4j
-public class CustomerServiceImpl implements  CustomerService{
+public class CustomerServiceImpl implements ICustomerService {
     @Autowired
     CustomerRepository customerRepository;
 

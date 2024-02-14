@@ -1,5 +1,6 @@
 package com.microservice.ventafisica.controller;
 
+import com.microservice.ventafisica.dto.StockDTO;
 import com.microservice.ventafisica.model.FacturaVenta;
 import com.microservice.ventafisica.service.IFacturaVentaService;
 import lombok.extern.slf4j.Slf4j;
@@ -52,10 +53,23 @@ public class VentaController {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 
-    @GetMapping("/producto")
+    @GetMapping("/stock")
     public ResponseEntity<?> findStockByProductoAlmacen(@RequestParam("producto") String nombreProducto,
                                                         @RequestParam("almacen") String nombreAlmacen){
-        return new ResponseEntity<>(service.PRODUCTO_BY_INVENTARIO_RESPONSE(nombreProducto,nombreAlmacen), HttpStatus.OK);
+        StockDTO stockDTO = service.findByProductoAlmacen(nombreProducto,nombreAlmacen);
+        if(stockDTO==null){
+            return ResponseEntity.badRequest().body("El stock es nulo, ingrese datos verdaderos");
+        }else{
+            if(stockDTO.getCantidad()<=0){
+                return ResponseEntity.badRequest().body("No existen unidades");
+            }
+            return new ResponseEntity<>(stockDTO, HttpStatus.OK);
+        }
+    }
+
+    @GetMapping("/stock/all")
+    public ResponseEntity<List<?>> findAllStock(){
+        return new ResponseEntity<>(service.findAllStock(), HttpStatus.OK);
     }
 
 }

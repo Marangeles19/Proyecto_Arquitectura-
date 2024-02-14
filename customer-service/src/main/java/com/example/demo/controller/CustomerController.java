@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.entity.Customer;
 import com.example.demo.entity.Region;
-import com.example.demo.service.CustomerService;
+import com.example.demo.service.ICustomerService;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -29,15 +29,15 @@ import java.util.stream.Collectors;
 public class CustomerController {
 
     @Autowired
-    CustomerService customerService;
+    ICustomerService customerService;
     @GetMapping
     public ResponseEntity<List<Customer>> listAllCustomers(@RequestParam(name = "regionId" , required = false) Long regionId ) {
         List<Customer> customers =  new ArrayList<>();
         if (null ==  regionId) {
             customers = customerService.findCustomerAll();
-            if (customers.isEmpty()) {
-                return ResponseEntity.noContent().build();
-            }
+//            if (customers.isEmpty()) {
+//                return ResponseEntity.noContent().build();
+//            }
         }else{
             Region Region= new Region();
             Region.setId(regionId);

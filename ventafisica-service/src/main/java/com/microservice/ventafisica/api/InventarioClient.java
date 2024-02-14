@@ -6,9 +6,14 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
+
 @FeignClient(name="inventario-service")
 @Component
 public interface InventarioClient {
+
+    @GetMapping("/api/stock")
+    List<StockDTO> findAllStock();
     @GetMapping("/api/stock/producto")
     StockDTO findByProductoAlmacen(@RequestParam("producto") String nombreProducto,
                                    @RequestParam("almacen") String nombreAlmacen);

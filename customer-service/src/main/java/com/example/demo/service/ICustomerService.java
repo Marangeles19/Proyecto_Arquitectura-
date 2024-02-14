@@ -5,7 +5,7 @@ import com.example.demo.entity.Region;
 
 import java.util.List;
 
-public interface CustomerService {
+public interface ICustomerService {
     public List<Customer> findCustomerAll();
     public List<Customer> findCustomersByRegion(Region region);
     public Customer createCustomer(Customer customer);

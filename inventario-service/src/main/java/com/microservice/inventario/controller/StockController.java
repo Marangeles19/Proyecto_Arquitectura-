@@ -90,16 +90,13 @@ public class StockController {
         if(producto!=null || almacen!=null){
             Stock stock = service.findByProductoAlmacen(producto,almacen);
             if(stock==null){
-                return ResponseEntity.badRequest().body("No existe el dato stock. Producto: " +producto.getNombre()+". Almacen: " +almacen.getNombre());
+                return new ResponseEntity<>(new Stock(), HttpStatus.NO_CONTENT);
             }
-            if(stock.getCantidad() <= 0){
-                return ResponseEntity.badRequest().body("No hay unidades. Producto: " +producto.getNombre());
-            }else{
-                return new ResponseEntity<>(stock, HttpStatus.OK);
-            }
+
+            return new ResponseEntity<>(stock, HttpStatus.OK);
         }else
         {
-            return ResponseEntity.badRequest().body("El producto o almacen no existen");
+            return new ResponseEntity<>(new Stock(), HttpStatus.NO_CONTENT);
         }
     }
 }
