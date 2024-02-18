@@ -1,0 +1,17 @@
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\Inventario.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\Cliente.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\repository\IGenericRepo.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\Pedido.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\service\impl\ProductoServiceImpl.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\controller\ClienteController.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\service\ICRUDService.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\controller\PedidoController.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\repository\IProductoRepo.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\service\IProductoService.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\controller\ProductoController.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\Producto.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\Venta.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\util\CORS.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\service\IClientService.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\models\DetalleVenta.java
+C:\Users\crist\MultiChannelSalesApp\src\main\java\com\packt\ventasmulticanal\MultiChannelSalesAppApplication.java
